@@ -11,6 +11,6 @@ This is an example of using LaunchDarkly webhook integration to apply approved c
 2. create the following environment secrets
    - webhook_secret, key used to sign the webhook payload
    - access_token, REST API with apply approval request permission
-   - serviece_kind, this value is sent by LD webhoo, send a sample webhook event from LD to capture this value
+   
    
 
