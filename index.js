@@ -44,7 +44,15 @@ app.post("/webhook", async (req, res) => {
     .applyApprovalRequest(payload, process.env.access_token)
     .then((response) => {
       const { data } = response;
-      const appliedDate = new Date(data.appliedDate).toString();
+      const dateTmp = new Date(data.appliedDate);
+      const dateOpt = {
+        dateStyle: "short",
+        timeStyle: "medium",
+        timeZone: "America/New_York",
+      };
+      const appliedDate = new Intl.DateTimeFormat("en-US", dateOpt).format(
+        dateTmp
+      );
       console.log(
         `Update status=[${data.status}] appliedDate=[${appliedDate}]`
       );

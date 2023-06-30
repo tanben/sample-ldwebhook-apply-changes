@@ -1,5 +1,5 @@
 # Apply approval using LaunchDarkly Webhook integration
-This is an example of using LaunchDarkly webhook integration to apply approved changes
+This is an example of using LaunchDarkly webhook integration to apply approved flag changes
 ## Requirement
 - [LaunchDarkly account](https://launchdarkly.com/start-trial/)
 - [LD Webhook integration](https://docs.launchdarkly.com/home/connecting/webhooks)
