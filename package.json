@@ -1,5 +1,5 @@
 {
-  "name": "nodejs",
+  "name": "ld-webhook-approval-app",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "@types/node": "^18.0.6",
     "axios": "^1.4.0",
